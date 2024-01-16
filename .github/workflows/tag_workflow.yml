@@ -6,7 +6,7 @@ on:
       - 'v*'  # Déclencher sur les tags qui commencent par 'v'
 
 jobs:
-  run_script:
+  build:
     runs-on: ubuntu-latest
 
     steps:
