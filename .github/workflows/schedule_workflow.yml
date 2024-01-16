@@ -2,7 +2,7 @@ name: ScheduledWorkflow
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Déclenchement tous les jours à minuit
+    - cron: '0 0 * * *'  
 
 jobs:
   run_script:

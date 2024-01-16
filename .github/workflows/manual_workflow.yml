@@ -18,7 +18,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt  # Assurez-vous d'avoir un fichier requirements.txt si nécessaire
+        pip install -r requirements.txt  
 
     - name: Execute Python script
       run: python script.py
