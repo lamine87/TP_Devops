@@ -3,7 +3,7 @@ name: TagWorkflow
 on:
   push:
     tags:
-      - 'v*'  # Déclencher sur les tags qui commencent par 'v'
+      - 'v*' 
 
 jobs:
   build:
