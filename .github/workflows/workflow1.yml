@@ -20,4 +20,4 @@ jobs:
         pip install -r requirements.txt  
 
     - name: Execute Python script
-      run: python script.py
+      run: python app.py
